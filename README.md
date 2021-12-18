@@ -7,6 +7,11 @@ Link to group drive: [driveSP_03](https://drive.google.com/drive/folders/1uJG-OQ
 
 ## Install instruction:
 -Step 1: Clone project.
+Install composer dependencies
+```
+composer require jenssegers/mongodb
+composer install
+```
 -Step 2: Create database with mongodb.
 * Create database in mongodb with name "LTCT"
 * copy file .env from https://drive.google.com/file/d/1s4HFIt7xKKsUshZyCCEJ7uwdg-_UUOvQ/view?usp=sharing and copy to main folder
