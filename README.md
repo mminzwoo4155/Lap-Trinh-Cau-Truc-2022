@@ -28,6 +28,4 @@ php artisan serve
 1. API for set/get role
 * GET: '/user/get-role/from-id'
 * POST: '/user/set-role/for-id'
-2. API for login
-* GET: api/login
-* POST: api/login
+
