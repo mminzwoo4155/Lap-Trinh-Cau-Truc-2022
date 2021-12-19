@@ -25,7 +25,12 @@ php artisan serve
 ```
 
 ## API list:
-1. API for set/get role
+1. API for get/set role
 * GET: '/user/get-role/from-id'
 * POST: '/user/set-role/for-id'
-
+2. API for get/set payment config
+* GET: '/paymentConfig/get'
+* POST: '/paymentConfig/set'
+3. API for get/set notification config
+* GET '/notificationConfig/get'
+* POST '/notificationConfig/set'
