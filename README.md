@@ -7,6 +7,11 @@ Link to group drive: [driveSP_03](https://drive.google.com/drive/folders/1uJG-OQ
 
 ## Install instruction:
 -Step 1: Clone project.
+Install composer dependencies
+```
+composer require jenssegers/mongodb
+composer install
+```
 -Step 2: Create database with mongodb.
 * Create database in mongodb with name "LTCT"
 * copy file .env from https://drive.google.com/file/d/1s4HFIt7xKKsUshZyCCEJ7uwdg-_UUOvQ/view?usp=sharing and copy to main folder
@@ -20,7 +25,12 @@ php artisan serve
 ```
 
 ## API list:
-1. API for set/get role
+1. API for get/set role
 * GET: '/user/get-role/from-id'
 * POST: '/user/set-role/for-id'
-
+2. API for get/set payment config
+* GET: '/paymentConfig/get'
+* POST: '/paymentConfig/set'
+3. API for get/set notification config
+* GET '/notificationConfig/get'
+* POST '/notificationConfig/set'

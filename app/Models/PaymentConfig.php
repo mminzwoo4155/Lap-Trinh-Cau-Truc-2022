@@ -8,7 +8,7 @@ use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class UserRole extends Model
+class PaymentConfig extends Model
 {
-    protected $collection = 'UserRole';
+    protected $collection = 'PaymentConfig';
 }
