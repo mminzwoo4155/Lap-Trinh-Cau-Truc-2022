@@ -45,4 +45,5 @@ php artisan serve
 * POST 'api/loginconfig/set'
 
 ##Database format
+
 /database/seeders
