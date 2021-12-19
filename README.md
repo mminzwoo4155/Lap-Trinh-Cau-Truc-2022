@@ -44,6 +44,5 @@ php artisan serve
 * GET 'api/loginconfig/get'
 * POST 'api/loginconfig/set'
 
-##Database format
-
+## Database format
 /database/seeders
