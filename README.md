@@ -43,3 +43,6 @@ php artisan serve
 6. API for get/set login config
 * GET 'api/loginconfig/get'
 * POST 'api/loginconfig/set'
+
+##Database format
+/database/seeders
