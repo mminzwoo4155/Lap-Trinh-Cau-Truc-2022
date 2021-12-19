@@ -1,0 +1,26 @@
+[
+    {
+        "theme" : "dark",
+        "font-size" : 30,
+        "language" : "eng",
+        "user_id" : 1
+    },
+    {
+        "theme" : "light",
+        "font-size" : 18,
+        "language" : "vn",
+        "user_id" : 2
+    },
+    {
+        "theme" : "dark",
+        "font-size" : 24,
+        "language" : "vn",
+        "user_id" : 3
+    },
+    {
+        "theme" : "light",
+        "font-size" : 27,
+        "language" : "eng",
+        "user_id" : 4
+    }
+]
