@@ -1,8 +1,0 @@
-[
-    {
-	"payment_method": ["Momo","ViettelPay"],
-    "fastOrder_support": true,
-    "maximum_transaction_amount": 1000000,
-    "acceptable_units": ["Dollars", "VND", "Yen"]
-    }
-]

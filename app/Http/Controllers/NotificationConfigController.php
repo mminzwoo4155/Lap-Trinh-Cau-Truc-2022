@@ -21,7 +21,7 @@ class NotificationConfigController extends Controller
             $isExist->save();
             return response()->json(["Message"=>"Notification Config updated successfully", "Notification_method"=> $request->notification_method, "Contain_advertisement"=> $request->contain_advertisement],  200);
         }else{
-            $newNotificationConfig= new UserRole;
+            $newNotificationConfig= new NotificationConfig;
             $newNotificationConfig->notification_method = $request->notification_method;
             $newNotificationConfig->contain_advertisement = $request->contain_advertisement;
             $newNotificationConfig->save();

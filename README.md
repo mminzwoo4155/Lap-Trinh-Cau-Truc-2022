@@ -26,11 +26,20 @@ php artisan serve
 
 ## API list:
 1. API for get/set role
-* GET: '/user/get-role/from-id'
-* POST: '/user/set-role/for-id'
+* GET: 'api/user/get-role/from-id'
+* POST: 'api/user/set-role/for-id'
 2. API for get/set payment config
-* GET: '/paymentConfig/get'
-* POST: '/paymentConfig/set'
+* GET: 'api/paymentConfig/get'
+* POST: 'api/paymentConfig/set'
 3. API for get/set notification config
-* GET '/notificationConfig/get'
-* POST '/notificationConfig/set'
+* GET 'api/notificationConfig/get'
+* POST 'api/notificationConfig/set'
+4. API for get/set screen config
+* GET 'api/user/get-screen-config/from-id'
+* POST 'api/user/set-screen-config/for-id'
+5. API for get/set product config
+* GET 'api/productconfig/get'
+* POST 'api/productconfig/set'
+6. API for get/set login config
+* GET 'api/loginconfig/get'
+* POST 'api/loginconfig/set'

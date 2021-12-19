@@ -1,0 +1,7 @@
+{
+  "Login_method": [
+    "google",
+    "facebook"
+  ],
+  "Direct_success": "/home/product"
+}
